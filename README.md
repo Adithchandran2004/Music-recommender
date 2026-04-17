@@ -1,12 +1,112 @@
-# React + Vite
+<!-- Music Recommender -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center"><b>Smart music recommendation system built using Python and machine learning techniques to suggest songs based on user preferences.</b></p>
 
-Currently, two official plugins are available:
+##
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🚀 Features
 
-## Expanding the ESLint configuration
+* 🎵 Recommend songs based on similarity
+* 📊 Uses dataset-driven recommendations
+* ⚡ Fast and lightweight backend
+* 🧠 Machine learning-based filtering
+* 💻 Simple and easy to run locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##
+
+### 📂 Project Structure
+
+```
+Music-recommender/
+│
+├── python-backend/
+│   ├── main.py
+│   ├── model files / dataset
+│
+├── assets/
+├── requirements.txt
+└── README.md
+```
+
+##
+
+### ⚙️ Installation
+
+* Clone the repository:
+
+  ```
+  git clone https://github.com/Adithchandran2004/Music-recommender.git
+  ```
+
+* Move into the project directory:
+
+  ```
+  cd Music-recommender
+  ```
+
+* Install dependencies:
+
+  ```
+  pip install -r requirements.txt
+  ```
+
+* Or install manually:
+
+  ```
+  pip install pandas
+  pip install numpy
+  pip install scikit-learn
+  ```
+
+##
+
+### ▶️ Run the Project
+
+```
+cd python-backend
+python3 main.py
+```
+
+##
+
+### 🧠 How It Works
+
+* Loads music dataset
+* Processes song features
+* Applies similarity algorithms
+* Recommends songs based on input
+
+##
+
+### 📊 Dataset
+
+* Uses a music dataset for generating recommendations
+* Ensure dataset file is placed correctly in the project directory
+
+##
+
+### 🖥️ Tested On
+
+* **Kali Linux**
+* **Ubuntu / Debian**
+
+##
+
+### 📌 Future Improvements
+
+* 🎧 Web-based UI
+* 📱 Mobile integration
+* 🤖 Advanced ML models
+* 🌐 API-based recommendations
+
+##
+
+### 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+##
+
+### 📄 License
+
+This project is open-source and available under the MIT License.
